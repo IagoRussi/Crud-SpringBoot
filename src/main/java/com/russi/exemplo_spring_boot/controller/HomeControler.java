@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class HomeControler {
 
-    @GetMapping("/")
-    public String helloWorld() {
-        return "Database Funcionando 1";
-    }
+        @GetMapping("/")
+        public String helloWorld() {
+            return "Database Funcionando 1";
+        }
 }

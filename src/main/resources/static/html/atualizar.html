@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Atualizar</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: rgb(0, 0, 0); font-family: Poppins;">
+    <div style="display: flex; justify-content: center; align-items: center; padding: 20px; border-radius: 10px; background-color:aliceblue;">
+        <form id="formulario" style="display: flex; justify-content: center; flex-direction: column; align-items: center;" action="/produto" method="post">
+            <h2>Atualização de Produtos</h2>
+            <div>
+                <label style="padding-left: 5px;" for="id">ID</label><br>
+                <input style="border-radius: 10px; border: 1px solid black; padding: 3px; padding-left: 10px;" type="number" id="id" name="id" required><br><br>
+            </div>
+            <div>
+                <label style="padding-left: 5px;" for="nome">Nome do Produto</label><br>
+                <input style="border-radius: 10px; border: 1px solid black; padding: 3px; padding-left: 10px;" type="text" id="nome" name="nome" required><br><br>
+            </div>
+            <div>
+                <label style="padding-left: 5px;" for="preco">Preço</label><br>
+                <input style="border-radius: 10px; border: 1px solid black; padding: 3px; padding-left: 10px;" type="number" step="0.01" id="preco" name="preco" required><br><br>
+            </div>
+            <div>
+            <button type="submit" style="border-radius: 10px; border: none; background-color: black; color: white; padding: 10px; cursor: pointer;" type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="../javascript/atualizar.js"></script>
+</body>
+</html>

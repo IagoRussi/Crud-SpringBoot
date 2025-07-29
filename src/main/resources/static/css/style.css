@@ -1,0 +1,25 @@
+body {
+    font-family: Poppins;
+}
+
+.card {
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 14%;
+    align-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+ul li a{
+    color: white;
+}
+
+
+a:hover {
+  color: rgb(62, 62, 247); /* opcional, para o texto ficar visível */
+}
